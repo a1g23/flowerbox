@@ -1,0 +1,68 @@
+* {
+    outline: 2px dotted green;
+}
+
+/* nav styling */
+
+.nav {
+    display: flex;
+    background-color: #92b2ba;
+    padding: 30px;
+    margin: 2% 5%;
+}
+
+.navItem {
+    flex: 1;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* banner styling */
+
+img {
+    height: 60vh;
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+
+.bannercontainer {
+    position: relative;
+}
+
+.overlay {
+    position:absolute;
+    top: 20vh;
+    left: 130vh;
+    display: flex;  
+    flex-direction: column;
+    justify-content: end;
+}
+
+#flowerbox {
+    font-size: 4em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+}
+
+#floralneeds {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+/* product styling */
+
+.floweroptions {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 5%;
+    justify-content: center;
+
+}
+
+.flower {
+    margin: 3px;
+}
