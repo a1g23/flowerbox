@@ -117,23 +117,62 @@ img {
 
 .footer {
     display:flex;
-    height: 10px;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 5%;
+    background-color: #eeeeee;
+    margin: 0 5%;
+    gap: 100px;
+}
+
+
+
+.logofooter {
+    color:#f0a8bb;
+    font-size: .8em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .customerservice {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap:10px;
+    justify-content: center;
+    
 }
 
 .flowerboxinfo {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    justify-content: center;
+   
 }
 
 .logoimg {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
+}
+
+/* center the socials */
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+ion-icon {
+    font-size: 24px;
+  }
+
+/* links update not title of links */
+
+.links {
+    font-size: .3em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linksTitle {
+    font-family: 'Open Sans', sans-serif;
+    color:#92b2ba;
 }
