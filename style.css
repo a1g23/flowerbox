@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 2px dotted green;
-} */
+}
 
 /* nav styling */
 
@@ -18,15 +18,17 @@
     text-align: center;
 }
 
-/* banner styling */
 
+
+/* banner and product image styler */
 img {
     height: 60vh;
     width: 90%;
-    margin: 0 5%;
+    margin: 2% 5%;
+    
 }
 
-
+/* banner styling */
 
 .bannercontainer {
     position: relative;
@@ -63,7 +65,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 3%;
+    margin: 3% 3%;
 
 }
 
@@ -109,4 +111,29 @@ img {
     padding: 1%;
     font-size: .2em;
 
+}
+
+/* foot flex box */
+
+.footer {
+    display:flex;
+    height: 10px;
+    justify-content: space-around;
+}
+
+.customerservice {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.flowerboxinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logoimg {
+    height: 150px;
+    width: 150px;
 }
